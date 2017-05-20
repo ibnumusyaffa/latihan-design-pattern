@@ -49,6 +49,10 @@ class DoorFactory
     }
 }
 
+
+/*
+running Section
+*/
 $door = DoorFactory::makeDoor(100, 200);
 echo $door->getWidth();
 echo $door->getHeight();
